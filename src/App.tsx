@@ -27,7 +27,7 @@ function App() {
           <Route path="/student-management/new" element={<AddStudentPage />} />
           <Route path="/student-management/:id" element={<StudentProfilePage />} />
           <Route path="/student-management/payouts" element={<PayoutRequestsPage />} />
-          
+          <Route path="/tutor-management" element={<TutorManagementPage />} />
           <Route path="/requests" element={<RequestsPage />} />
           <Route path="/requests/:id" element={<RequestDetailPage />} />
           <Route path="/sessions" element={<SessionsPage />} />
